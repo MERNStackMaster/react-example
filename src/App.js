@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/">Home</Link> 
         <Link to="/header">Header</Link>
         <Link to="/main">Main</Link>
         <Link to="/footer">Footer</Link>
@@ -26,10 +26,6 @@ function App() {
           return <h1>404 Error!</h1>
         }} />
       </Switch>
-
-      {/* <Header />
-      <Main />
-      <Footer /> */}
     </Router>
   );
 }

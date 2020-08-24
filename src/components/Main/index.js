@@ -24,7 +24,7 @@ class Main extends React.Component {
 	handleDelComments = () => {
 		this.setState({
 			comments: []
-		});
+		}); 
 	};
 
 	componentDidMount() { // very similar to document.ready() eg. When the component loads and is ready
